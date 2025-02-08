@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# Photography Website
+
+This project is a responsive photography portfolio built using Next.js, Tailwind CSS, and TypeScript. It showcases beautiful photography and provides sections for the user to learn more about your work, contact information, and a smooth scroll effect with intuitive navigation.
+
+## Features
+
+- **Mobile-First Design**: Optimized for mobile devices with responsive design and smooth scrolling.
+- **Tailwind CSS**: Utilized for fast, customizable, and responsive styling.
+- **Next.js with TypeScript**: Uses Next.js for server-side rendering and static site generation with TypeScript for strong type safety.
+- **Optimized Images**: Leveraging Next.js' `Image` component for optimized images.
+- **Smooth Scrolling and Animations**: Enhanced user experience with scroll effects and animation (e.g., bouncing arrow).
+- **Contact Information**: Contact form with links to email, phone number, and Instagram.
+
+## Technologies Used
+
+- **Next.js**: Framework for building React applications with great performance and scalability.
+- **Tailwind CSS**: Utility-first CSS framework to rapidly build custom designs.
+- **TypeScript**: Adds type safety to JavaScript for better development experience and fewer bugs.
+- **Lucide React**: Icons for use in navigation and interface elements.
+- **Next.js Image Optimization**: Built-in image optimization for faster page loads.
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/sergiovzambelli/photography-website.git
+cd photography-website
+```
+
+### 2. Install dependencies
+
+Make sure you have `Node.js` installed. Then, install the necessary dependencies:
+
+```bash
+npm install
+```
+
+or if you're using Yarn:
+
+```bash
+yarn install
+```
+
+### 3. Run the development server
+
+To start the development server, run:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+or with Yarn:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This will start the Next.js development server at `http://localhost:3000`. Open your browser to view the website.
 
-## Learn More
+### 4. Customize
 
-To learn more about Next.js, take a look at the following resources:
+- **Images**: Replace the images in the `/public/images/` directory with your own portfolio images.
+- **Text**: Update the text content within the components (`Hero`, `FirstSection`, `FinalSection`, `Footer`) to match your brand or information.
+- **Contact Info**: Modify the email, phone number, and Instagram handle in the `FinalSection` component with your own.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Font**: The project uses the **Poppins** font from Google Fonts. You can change the font by editing the `font-poppins` class in `globals.css`.
+- **Colors**: Tailwind CSS utility classes are used for styling. You can adjust colors and styling by modifying Tailwind’s configuration file or adding custom classes.
+- **Animations**: The page includes a "bouncing" down arrow using Tailwind’s `animate-bounce`. You can customize this or replace it with other animations.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
