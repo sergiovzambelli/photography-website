@@ -3,7 +3,7 @@
   const Footer: React.FC = () => {
     return (
       <footer className="bg-off-white text-black pb-2 md:pb-4 lg:pb-6">
-        {/* Copyright */}
+
         <p className="text-sm md:text-base lg:text-lg flex flex-row items-center justify-center gap-1 font-light">
           
           <Link href="https://www.sergiovzambelli.it/" className="text-black">

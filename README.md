@@ -11,6 +11,7 @@ This project is a responsive photography portfolio built using Next.js, Tailwind
 - **Optimized Images**: Leveraging Next.js' `Image` component for optimized images.
 - **Smooth Scrolling and Animations**: Enhanced user experience with scroll effects and animation (e.g., bouncing arrow).
 - **Contact Information**: Contact form with links to email, phone number, and Instagram.
+- **Basic SEO**: The site has optimized meta tags, including title, description, and keywords, to improve search engine visibility.
 
 ## Technologies Used
 
