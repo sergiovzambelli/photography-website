@@ -1,11 +1,11 @@
 import Image from "next/image";
-import { ChevronDown } from "lucide-react"; // Assicurati di aver installato lucide-react
+import { ChevronDown } from "lucide-react";
 import Link from "next/link";
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative w-full h-screen flex items-center justify-center px-4">
-      {/* Immagine di sfondo ottimizzata con Next.js */}
+    <section className="relative w-full h-screen flex items-center justify-center px-6 md:px-12 lg:px-16">
+      {/* Immagine di sfondo */}
       <div className="absolute inset-0">
         <Image
           src="/images/street_run.jpg"
@@ -17,15 +17,15 @@ const Hero: React.FC = () => {
         />
       </div>
 
-      {/* Overlay scuro per migliorare il contrasto del testo */}
+      {/* Overlay per contrasto */}
       <div className="absolute inset-0 bg-[#333333] bg-opacity-60"></div>
 
-      {/* Testo centrato */}
-      <h1 className="relative text-white text-5xl font-bold font-poppins">
+      {/* Testo centrato e responsive */}
+      <h1 className="relative text-white text-5xl md:text-7xl lg:text-8xl font-bold font-poppins">
         street photography
       </h1>
 
-      {/* Freccia fissa verso il basso */}
+      {/* Freccia che scende */}
       <div className="absolute bottom-8 text-white animate-bounce">
         <Link href="#nextSection">
           <ChevronDown size={40} />

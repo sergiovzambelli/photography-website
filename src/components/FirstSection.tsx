@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const FirstSection: React.FC = () => {
   return (
-    <section className="bg-[#F5F5F5] pt-16">
+    <section className="bg-[#F5F5F5] pt-16 md:pt-20 lg:pt-40">
       {/* Titolo h2 */}
-      <h2 className="text-5xl font-semibold text-center mb-16 font-poppins">
+      <h2 className="text-4xl md:text-6xl lg:text-7xl font-semibold text-center mb-16 md:mb-20 lg:mb-40 font-poppins">
         around us
       </h2>
 
-      <div className="flex flex-col w-full">
+      <div className="flex flex-col w-full max-w-[1200px] mx-auto">
         {/* Immagine 1 */}
         <div className="w-full relative" style={{ paddingBottom: "100%" }}>
           <Image
