@@ -3,6 +3,10 @@
 
 This project is a responsive photography portfolio built using Next.js, Tailwind CSS, and TypeScript. It showcases beautiful photography and provides sections for the user to learn more about your work, contact information, and a smooth scroll effect with intuitive navigation.
 
+## LIVE PREVIEW  
+🔗 View the Live Site: https://photography-website-amber.vercel.app/  
+> Click the link above to explore the photography portfolio in action!
+
 ## Features
 
 - **Mobile-First Design**: Optimized for mobile devices with responsive design and smooth scrolling.
