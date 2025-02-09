@@ -80,7 +80,7 @@ This will start the Next.js development server at `http://localhost:3000`. Open 
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
-## 📜 Photo Credits  
+## Photo Credits  
 
 All photos used in this project are credited to their respective photographers.  
 
@@ -90,4 +90,4 @@ All photos used in this project are credited to their respective photographers.
 
 If you are the author of any image and wish to have it removed or credited differently, please contact me!  
 
-📩 **Contact:** sergiovzambelli@gmail.com
+**Contact:** sergiovzambelli@gmail.com
