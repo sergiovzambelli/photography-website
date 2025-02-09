@@ -79,3 +79,15 @@ This will start the Next.js development server at `http://localhost:3000`. Open 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+## 📜 Photo Credits  
+
+All photos used in this project are credited to their respective photographers.  
+
+- **Joao Cabral** – ([Source Link](https://www.pexels.com/photo/black-and-white-photo-of-man-with-umbrella-3299386/))  
+- **Jeys Tubianosa** – "[Photo Title]" ([Source Link](https://www.pexels.com/photo/woman-catching-a-lemon-3538030/))  
+- **Aleksandar Pasaric** – "[Photo Title]" ([Source Link](https://www.pexels.com/photo/street-under-cloudy-sky-1344537/))  
+
+If you are the author of any image and wish to have it removed or credited differently, please contact me!  
+
+📩 **Contact:** sergiovzambelli@gmail.com
