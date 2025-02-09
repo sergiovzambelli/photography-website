@@ -12,7 +12,7 @@ const FirstSection: React.FC = () => {
     
         <div className="w-full relative" style={{ paddingBottom: "100%" }}>
           <Image
-            src="/images/place.jpg"
+            src="/images/place.webp"
             alt="Pic 1"
             layout="fill"
             objectFit="cover"
@@ -22,7 +22,7 @@ const FirstSection: React.FC = () => {
 
         <div className="w-full relative" style={{ paddingBottom: "100%" }}>
           <Image
-            src="/images/orange_girl.jpg"
+            src="/images/orange_girl.webp"
             alt="Pic 2"
             layout="fill"
             objectFit="cover"
@@ -32,7 +32,7 @@ const FirstSection: React.FC = () => {
 
         <div className="w-full relative" style={{ paddingBottom: "100%" }}>
           <Image
-            src="/images/rainy.jpg"
+            src="/images/rainy.webp"
             alt="Pic 3"
             layout="fill"
             objectFit="cover"

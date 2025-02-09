@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
 
       <div className="absolute inset-0">
         <Image
-          src="/images/street_run.jpg"
+          src="/images/street_run.webp"
           alt="Street Photography"
           fill
           className="object-cover"
