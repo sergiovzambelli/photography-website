@@ -8,9 +8,9 @@ const FirstSection: React.FC = () => {
         around us
       </h2>
 
-      <div className="flex flex-col w-full max-w-[1200px] mx-auto">
+      <div className="flex flex-col w-full max-w-[800px] mx-auto">
     
-        <div className="w-full relative" style={{ paddingBottom: "100%" }}>
+        <div className="w-full relative pb-[100%] lg:pb-[80%]">
           <Image
             src="/images/place.webp"
             alt="Pic 1"
@@ -20,7 +20,7 @@ const FirstSection: React.FC = () => {
           />
         </div>
 
-        <div className="w-full relative" style={{ paddingBottom: "100%" }}>
+        <div className="w-full relative pb-[100%] lg:pb-[80%]">
           <Image
             src="/images/orange_girl.webp"
             alt="Pic 2"
@@ -30,7 +30,7 @@ const FirstSection: React.FC = () => {
           />
         </div>
 
-        <div className="w-full relative" style={{ paddingBottom: "100%" }}>
+        <div className="w-full relative pb-[100%] lg:pb-[80%]" >
           <Image
             src="/images/rainy.webp"
             alt="Pic 3"
