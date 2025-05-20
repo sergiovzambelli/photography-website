@@ -1,6 +1,6 @@
 {
-  "name": "sito_massimiliano",
-  "version": "0.1.0",
+  "name": "photograph_site",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
